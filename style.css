@@ -1,9 +1,11 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background-image: url("stacks.jpeg");
+  background-size: cover;
+  background-position: center;
 }
 
 * {
@@ -17,6 +19,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   clear: both;
+  background-color: invisible;
 }
 
 h1,
@@ -33,9 +36,9 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: black;
 }
 
 h1 {
@@ -43,11 +46,13 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2,
 h3 {
   font-size: 22px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* header */
@@ -59,7 +64,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #ffffff;
-  background: #ffffff;
+  background: ;
   border-bottom: 2px solid #cccccc;
 }
 
@@ -67,14 +72,14 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: invisible;
 }
 
 nav {
@@ -106,7 +111,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid black;
   height: 50px;
 }
 
@@ -115,6 +120,7 @@ h3, h2 {
   margin-bottom: 15px;
   line-height: 22px;
   border-bottom: 2px solid #eeeeee;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* main */
@@ -122,7 +128,9 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  font-family: 'Open Sans', sans-serif;
 }
+
 
 .main-section {
   float: left;
@@ -164,7 +172,7 @@ h3, h2 {
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #4aaaa5;
+  background: black;
   border-bottom: 0;
 }
 
@@ -212,6 +220,6 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: black;
   border: 0 none;
 }
