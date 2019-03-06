@@ -212,23 +212,30 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (min-width: 576px) {
-  .container {
-    font-size: 40px;
-    
+@media (max-width: 576px) {
+  p {
+    font-size: 90px;
+
   }
   div.container {
     display: flex;
     flex-wrap: wrap;
+    
   }
   #id {
     font-size: 70px;
+    
   }
 
   #masthead {
     position: relative;
+    display: inline;
+    overflow: hidden;
     
   }
-}
 
-/* @media screen and (min-width: ) */
+} 
+
+/* @media screen and (max-width: 768px) {
+  
+} */
