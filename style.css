@@ -225,6 +225,10 @@ input[type=submit] {
     font-size: 70px;
   }
 
+  #masthead {
+    position: relative;
+    
+  }
 }
 
 /* @media screen and (min-width: ) */
