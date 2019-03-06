@@ -22,10 +22,7 @@ body {
   background-color: invisible;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
@@ -33,9 +30,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: black;
@@ -49,8 +44,7 @@ h1 {
   font-family: 'Open Sans', sans-serif;
 }
 
-h2,
-h3 {
+h2, h3 {
   font-size: 22px;
   font-family: 'Open Sans', sans-serif;
 }
@@ -131,7 +125,6 @@ h3, h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 .main-section {
   float: left;
   width: 100%;
@@ -194,17 +187,12 @@ h3, h2 {
   margin-bottom: 10px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
+label, input[type=text], input[type=email], textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
-textarea {
+input[type=text], input[type=email], textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
@@ -222,4 +210,17 @@ input[type=submit] {
   cursor: pointer;
   background: black;
   border: 0 none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    font-size: 40px;
+  }
+  div.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #id {
+    font-size: 70px;
+  }
 }
