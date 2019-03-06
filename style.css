@@ -212,9 +212,10 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
   .container {
     font-size: 40px;
+    
   }
   div.container {
     display: flex;
@@ -223,5 +224,7 @@ input[type=submit] {
   #id {
     font-size: 70px;
   }
- 
+
 }
+
+/* @media screen and (min-width: ) */
