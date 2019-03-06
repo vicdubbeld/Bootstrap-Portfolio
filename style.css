@@ -99,6 +99,10 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  font-size: 30px;
+}
+
 /* footer */
 
 footer {
