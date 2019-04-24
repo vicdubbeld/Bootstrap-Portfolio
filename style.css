@@ -32,7 +32,14 @@
     margin: auto;
     padding: 0;
 }
+.display-4, .lead{
+    color: white;
+}
 
 body {
-    color: white;
+    color: black;
+}
+.work {
+    color: black;
+    text-align: center;
 }
