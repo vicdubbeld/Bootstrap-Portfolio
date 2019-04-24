@@ -22,10 +22,10 @@
 
 .jumbotron-fluid {
     background-image: url('images/jumbo.jpg');
-    width: 1200px;
-    height: 600px;
+    width: 100%;
+    height: 100vh;
     background-size: cover;
-    
+    opacity: .9;
     background-position: center center;
     background-repeat: no-repeat;
     text-align: center;
@@ -44,6 +44,35 @@ body {
     color: black;
     text-align: center;
 }
-rect {
-    background: url('images/liri.png');
+
+#liri-card {
+    height: 225px;
+    background-image: url('images/liri.png');
+    background-size: 100%;
+    opacity: .9;
+}
+#giftune-card {
+    height: 225px;
+    background-image: url('images/giftune.png');
+    background-size: 100%;
+    opacity: .9;
+}
+#train-card {
+    height: 225px;
+    background-image: url('images/stacks.jpeg');
+    background-size: 100%;
+    opacity: .9;
+}
+#trivia-card {
+    height: 225px;
+    background-image: url('images/lightning.jpg');
+    background-size: 100%;
+    opacity: .9;
+}
+#mushroom-card {
+    height: 225px;
+    background-image: url('images/IMG_1967.jpeg');
+    background-size: 100%;
+    opacity: .9;
+
 }
